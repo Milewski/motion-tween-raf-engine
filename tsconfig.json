@@ -4,10 +4,10 @@
     "target": "es3",
     "sourceMap": false,
     "declaration": true,
-    "declarationDir": "declarations"
+    "declarationDir": "declaration"
   },
   "exclude": [
     "node_modules",
-    "declarations"
+    "declaration"
   ]
 }

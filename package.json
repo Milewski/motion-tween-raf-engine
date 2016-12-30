@@ -1,6 +1,6 @@
 {
   "name": "motion-tween-raf-engine",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "distribution/Raf.js",
   "license": "MIT",
   "description": "A FPS based requestAnimationFrame",
@@ -25,6 +25,11 @@
   "bugs": {
     "url": "https://github.com/Milewski/motion-tween-raf-engine/issues"
   },
+  "types": "declaration/Raf.d.ts",
+  "files": [
+    "distribution/Raf.js",
+    "declaration/Raf.d.ts"
+  ],
   "scripts": {
     "build": "tsc && babel source -d distribution",
     "prepublish": "npm run build"
