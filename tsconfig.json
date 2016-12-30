@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es3",
+    "sourceMap": false,
+    "declaration": true,
+    "declarationDir": "declarations"
+  },
+  "exclude": [
+    "node_modules",
+    "declarations"
+  ]
+}

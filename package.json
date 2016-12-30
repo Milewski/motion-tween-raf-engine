@@ -1,0 +1,36 @@
+{
+  "name": "motion-tween-raf-engine",
+  "version": "1.0.0",
+  "main": "distribution/Raf.js",
+  "license": "MIT",
+  "description": "A FPS based requestAnimationFrame",
+  "keywords": [
+    "fps",
+    "animation",
+    "requestAnimationFrame",
+    "raf",
+    "loop",
+    "looper"
+  ],
+  "author": {
+    "name": "Rafael Milewski",
+    "email": "rafael.milewski@gmail.com",
+    "url": "https://github.com/Milewski"
+  },
+  "homepage": "https://github.com/Milewski/motion-tween-raf-engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Milewski/motion-tween-raf-engine"
+  },
+  "bugs": {
+    "url": "https://github.com/Milewski/motion-tween-raf-engine/issues"
+  },
+  "scripts": {
+    "build": "tsc && babel source -d distribution",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
