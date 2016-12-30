@@ -1,7 +1,12 @@
+#Installation
+
+```bash
+$ npm install motion-tween-raf-engine --save
+```
+
 #Usage
 
 Usage is very straight forward.
-
 
 ```javascript
 const RAF = require('motion-tween-raf-engine')

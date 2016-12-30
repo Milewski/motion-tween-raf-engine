@@ -2,4 +2,6 @@ node_modules
 *.log
 *.map
 source/**/*.js
-declaration
+declarations
+distribution
+.idea
