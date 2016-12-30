@@ -9,9 +9,9 @@ $ npm install motion-tween-raf-engine --save
 Usage is very straight forward.
 
 ```javascript
-const RAF = require('motion-tween-raf-engine')
+import { RAF } from "motion-tween-raf-engine";
 
-const loop = new RAF(frameRate, ({ time, delta }) => {
+const loop = new RAF(frameRate, (time, delta) => {
     // do something
 }, autoStart)
 
@@ -22,5 +22,5 @@ loop.reset()
 ```
 
 * frameRate: from 1 to 60
-* callback: will receive delta and time
+* callback: will receive time and delta
 * autoStart: defaults to true

@@ -1,6 +1,6 @@
 {
   "name": "motion-tween-raf-engine",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "distribution/Raf.js",
   "license": "MIT",
   "description": "A FPS based requestAnimationFrame",

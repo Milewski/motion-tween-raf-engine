@@ -46,10 +46,7 @@ export class RAF {
 
         if (this.elapsed >= this.interval) {
 
-            this.callback({
-                delta: this.elapsed,
-                time: this.elapsed
-            })
+            this.callback(this.elapsed, delta);
 
             this.elapsed %= this.interval
 
