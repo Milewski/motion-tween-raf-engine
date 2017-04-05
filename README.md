@@ -1,5 +1,7 @@
 #Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Milewski/motion-tween-raf-engine.svg)](https://greenkeeper.io/)
+
 ```bash
 $ npm install motion-tween-raf-engine --save
 ```
